@@ -1,0 +1,36 @@
+input{
+    padding: 8px;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 4.5%;
+    outline: none;
+    background-color: whitesmoke;
+}
+.Main{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    height: 35px;
+    font-weight: bold;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    width: 12%;
+    margin-left: 3%;
+}
+.TodoSection{
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    /* padding-bottom: 30%; */
+    height: auto;
+    border-radius: 4px;
+    border-color: thistle;
+    /* box-shadow: 5px 5px lightgray; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+}
+

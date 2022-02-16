@@ -1,0 +1,21 @@
+.header{
+    /* border: 1px solid black; */
+    background-color: cadetblue;
+    text-align: right;
+    padding: 15px;
+}
+a{
+    /* display: block; */
+    /* float: left; */
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+.logoText{
+    /* display: inline; */
+    float: left;
+    font-size: larger;
+    position: absolute;
+    top: -1%;
+}

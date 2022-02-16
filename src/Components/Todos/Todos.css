@@ -1,0 +1,39 @@
+.main {
+  text-align: left;
+  margin-left: 12px;
+  margin-bottom: 3%;
+}
+.del-btn {
+  background-color: red;
+  width: fit-content;
+  padding: 7px;
+  height: fit-content;
+  float: right;
+  display: flex;
+  position: relative;
+  right: 4%;
+  bottom: 45px;
+}
+h5 {
+  display: inline;
+  position: relative;
+  top: 15px;
+}
+.container {
+  position: relative;
+  bottom: 24px;
+}
+#chkbox {
+  position: relative;
+  left: 6rem;
+}
+span {
+  display: inline-flex;
+  flex-direction: row;
+  position: absolute;
+  left: 20rem;
+}
+.donetask {
+  text-decoration: line-through;
+
+}
