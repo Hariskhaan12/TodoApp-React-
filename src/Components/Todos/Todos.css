@@ -13,11 +13,13 @@
   position: relative;
   right: 4%;
   bottom: 45px;
+  border: none;
+  border-radius: 5px;
 }
 h5 {
-  display: inline;
-  position: relative;
-  top: 15px;
+   display: inline; 
+   position: relative;
+  top: 15px; 
 }
 .container {
   position: relative;
@@ -31,9 +33,33 @@ span {
   display: inline-flex;
   flex-direction: row;
   position: absolute;
-  left: 20rem;
+  left: 27rem;
 }
 .donetask {
   text-decoration: line-through;
 
+}
+.editTodo{
+  display: inline-flex;
+  position: absolute;
+  left:59%;
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.HideAdd{
+  display: none;
+  
+}
+.ShowSave{
+   padding: 10px;
+    height: 35px;
+    font-weight: bold;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+     width: 12%;
+    margin-left: 3%;
+  display: inline-block;
+  
 }

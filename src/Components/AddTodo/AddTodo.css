@@ -10,7 +10,7 @@ input{
 .Main{
     text-align: center;
 }
-button{
+.AddTodo{
     padding: 10px;
     height: 35px;
     font-weight: bold;
@@ -20,9 +20,22 @@ button{
     width: 12%;
     margin-left: 3%;
 }
+.SaveTodo{
+    /* padding: 10px;
+    height: 35px;
+    font-weight: bold;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    width: 12%;
+    margin-left: 3%; */
+    display: none;
+}
+
+
 .TodoSection{
     border: 1px solid black;
-    width: 40%;
+    width: 50%;
     margin: auto;
     /* padding-bottom: 30%; */
     height: auto;
@@ -34,3 +47,9 @@ button{
     
 }
 
+.hide{
+    display: none;
+}
+.show{
+    display: inline-block;
+}
